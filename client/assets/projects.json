@@ -1,0 +1,32 @@
+[
+	{
+		"pName": "Polarizing",
+		"pImage": "./assets/images/polarizing.png",
+		"pDescription": "Roles: Project Lead, Programmer, Level Designer\n\t\tThis prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.",
+		"pLinks": [
+			{
+				"linkText": "Play Now",
+				"linkAddress": "https: //jgm-edu.github.io/"
+			},
+			{
+				"linkText": "Github Repo",
+				"linkAddress": "https://github.com/cole-easton/IGME320Proj3"
+			}
+		]
+	},
+	{
+		"pName": "Unnamed Rhythm Game",
+		"pImage": "./assets/images/supersonic2.png",
+		"pDescription": "Roles: Sole Developer\n\t\tA small rhythm game currently in development. Keep the square in the air.",
+		"pLinks": [
+			{
+				"linkText": "Play Now",
+				"linkAddress": "https: //jgm-edu.github.io/"
+			},
+			{
+				"linkText": "Github Repo",
+				"linkAddress": "https://github.com/cole-easton/IGME320Proj3"
+			}
+		]
+	}
+]
