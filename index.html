@@ -18,11 +18,17 @@
 			<a href="#mainContent">Projects</a>
 		</header>
 		<span id="bio" class="container rounded level1">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			I am an aspiring game designer from Long Island, New York, with a strong background in C# and Web development. My more recent endevours have been developing short Unity engine games and web development, along with refamiliarizing myself with C++. My programming roots go back YEARS_OF_PROGRAMMING years to my 10th grade intro classes to C++ and Java, and I've since expanded to JavaScript, Python, C#, and more.
 		</span>
 		<div id="mainContent" class="container bordered rounded level1"></div>
 		<script>
 			window.onload = init;
+			let text = document.querySelector("#bio").innerHTML;
+			text = text.split("YEARS_OF_PROGRAMMING");
+			text.push(text[1]);
+			text[1] = "" + new Date().getFullYear() - 2014;
+			text = text[0] + text[1] + text[2];
+			document.querySelector("#bio").innerHTML = text;
 		</script>
 	</body>
 </html>

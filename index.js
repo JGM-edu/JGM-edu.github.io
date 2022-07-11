@@ -5,7 +5,7 @@ const projects = [
 	{
 		"pName": "Polarizing",
 		"pImage": "./assets/images/polarizing.png",
-		"pDescription": "Roles: Project Lead, Programmer, Level Designer\n\t\tThis prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.",
+		"pDescription": "Roles: Project Lead, Programmer, Level Designer<br />This prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.",
 		"pLinks": [
 			{
 				"linkText": "Play Now",
@@ -20,7 +20,7 @@ const projects = [
 	{
 		"pName": "Unnamed Rhythm Game",
 		"pImage": "./assets/images/supersonic2.png",
-		"pDescription": "Roles: Sole Developer\n\t\tA small rhythm game currently in development. Keep the square in the air.",
+		"pDescription": "Roles: Sole Developer<br />A small rhythm game currently in development. Keep the square in the air.",
 		"pLinks": [
 			{
 				"linkText": "Play Now",
