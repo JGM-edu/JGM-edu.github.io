@@ -20,7 +20,7 @@ const projects = [
 	{
 		"pName": "Unnamed Rhythm Game",
 		"pImage": "./assets/images/supersonic2.png",
-		"pDescription": "Roles: Sole Developer<br />A small rhythm game currently in development. Keep the square in the air.",
+		"pDescription": "Roles: Sole Developer<br />A small rhythm game currently on hiatus. Keep the square in the air.",
 		"pLinks": [
 			{
 				"linkText": "Play Now",
@@ -31,8 +31,25 @@ const projects = [
 				"linkAddress": "https://github.com/jmortiger/Supersonic"
 			}
 		]
-	}
-]
+	},
+	{
+		"pName": "Unnamed Game",
+		"pImage": "./assets/images/default.png",
+		"pDescription": "Roles: Sole Developer<br />A small game currently in development. Charge forward as you dash, dodge, and phase your way through a minefield of hazards in this Ori-styled 2D platformer.",
+		"pLinks": [
+			""
+			// {
+			// 	"linkText": "Play Now",
+			// 	"linkAddress": "./Supersonic/index.html"//"https://jgm-edu.github.io/"
+			// },
+			// {
+			// 	"linkText": "Github Repo",
+			// 	"linkAddress": "https://github.com/jmortiger/Supersonic"
+			// }
+		]
+	},
+];
+
 function init() {
 	for (let i = 0; i < projects.length; i++)
 		constructProject(projects[i]);
