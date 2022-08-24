@@ -9,7 +9,7 @@ const projects = [
 		[
 			new Link(
 				"Play Now",
-				"./EdgeOfControl/play/index.html"//"https://jgm-edu.github.io/"
+				"./EdgeOfControl/index.html"//"https://jgm-edu.github.io/"
 			),
 			new Link(
 				"Github Repo",
@@ -66,6 +66,7 @@ function init() {
  */
 function constructProject(project) {
 	let pElem = document.createElement("a");
+	// pElem.id = project.pName;
 	pElem.className = "projectLinkWrapper";
 	pElem.href = (typeof project.pLinks[0] === "string") ? project.pLinks[0] : project.pLinks[0].linkAddress;
 	document.querySelector("#mainContent").appendChild(pElem);
