@@ -2,67 +2,57 @@
  * @type {Project[]}
  */
 const projects = [
-	{
-		"pName": "Edge of Control",
-		"pImage": "./assets/images/edgeOfControl.png",
-		"pDescription": "Roles: Sole Developer<br />A 2D platformer MVI merging Left 4 Dead with Mirror's Edge. Get to the end before time runs out. Currently under development.",
-		"pLinks": [
-			{
-				"linkText": "Play Now",
-				"linkAddress": "./EdgeOfControl/play/index.html"//"https://jgm-edu.github.io/"
-			},
-			{
-				"linkText": "Github Repo",
-				"linkAddress": "https://github.com/jmortiger/Edge-of-Control"
-			}
+	new Project(
+		"Edge of Control",
+		"./assets/images/edgeOfControl.png",
+		"Roles: Sole Developer<br />A 2D platformer MVI merging Left 4 Dead with Mirror's Edge. Get to the end before time runs out. Currently under development.",
+		[
+			new Link(
+				"Play Now",
+				"./EdgeOfControl/play/index.html"//"https://jgm-edu.github.io/"
+			),
+			new Link(
+				"Github Repo",
+				"https://github.com/jmortiger/Edge-of-Control"
+			)
 		]
-	},
-	{
-		"pName": "Polarizing",
-		"pImage": "./assets/images/polarizing.png",
-		"pDescription": "Roles: Project Lead, Programmer, Level Designer<br />This prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.",
-		"pLinks": [
-			{
-				"linkText": "Play Now",
-				"linkAddress": "./Polarizing/index.html"//"https://jgm-edu.github.io/"
-			},
-			{
-				"linkText": "Github Repo",
-				"linkAddress": "https://github.com/cole-easton/IGME320Proj3"
-			}
+	),
+	new Project(
+		"Polarizing",
+		"./assets/images/polarizing.png",
+		"Roles: Project Lead, Programmer, Level Designer<br />This prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.",
+		[
+			new Link(
+				"Play Now",
+				"./Polarizing/index.html"//"https://jgm-edu.github.io/"
+			),
+			new Link(
+				"Github Repo",
+				"https://github.com/cole-easton/IGME320Proj3"
+			)
 		]
-	},
-	{
-		"pName": "Unnamed Rhythm Game",
-		"pImage": "./assets/images/supersonic2.png",
-		"pDescription": "Roles: Sole Developer<br />A small rhythm game currently on hiatus. Keep the square in the air.",
-		"pLinks": [
-			{
-				"linkText": "Play Now",
-				"linkAddress": "./Supersonic/index.html"//"https://jgm-edu.github.io/"
-			},
-			{
-				"linkText": "Github Repo",
-				"linkAddress": "https://github.com/jmortiger/Supersonic"
-			}
+	),
+	new Project(
+		"Unnamed Rhythm Game",
+		"./assets/images/supersonic2.png",
+		"Roles: Sole Developer<br />A small rhythm game currently on hiatus. Keep the square in the air.",
+		[
+			new Link(
+				"Play Now",
+				"./Supersonic/index.html"//"https://jgm-edu.github.io/"
+			),
+			new Link(
+				"Github Repo",
+				"https://github.com/jmortiger/Supersonic"
+			)
 		]
-	},
-	{
-		"pName": "Unnamed Game",
-		"pImage": "./assets/images/default.png",
-		"pDescription": "Roles: Sole Developer<br />A small game currently on hiatus. Charge forward as you dash, dodge, and phase your way through a minefield of hazards in this Ori-styled 2D platformer.",
-		"pLinks": [
-			""
-			// {
-			// 	"linkText": "Play Now",
-			// 	"linkAddress": "./Supersonic/index.html"//"https://jgm-edu.github.io/"
-			// },
-			// {
-			// 	"linkText": "Github Repo",
-			// 	"linkAddress": "https://github.com/jmortiger/Supersonic"
-			// }
-		]
-	},
+	),
+	new Project(
+		"Unnamed Game",
+		"./assets/images/default.png",
+		"Roles: Sole Developer<br />A small game currently on hiatus. Charge forward as you dash, dodge, and phase your way through a minefield of hazards in this Ori-styled 2D platformer.",
+		[""]
+	),
 ];
 
 function init() {
