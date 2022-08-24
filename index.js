@@ -3,6 +3,21 @@
  */
 const projects = [
 	{
+		"pName": "Edge of Control",
+		"pImage": "./assets/images/edgeOfControl.png",
+		"pDescription": "Roles: Sole Developer<br />A 2D platformer MVI merging Left 4 Dead with Mirror's Edge. Get to the end before time runs out. Currently under development.",
+		"pLinks": [
+			{
+				"linkText": "Play Now",
+				"linkAddress": "./EdgeOfControl/play/index.html"//"https://jgm-edu.github.io/"
+			},
+			{
+				"linkText": "Github Repo",
+				"linkAddress": "https://github.com/jmortiger/Edge-of-Control"
+			}
+		]
+	},
+	{
 		"pName": "Polarizing",
 		"pImage": "./assets/images/polarizing.png",
 		"pDescription": "Roles: Project Lead, Programmer, Level Designer<br />This prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.",
@@ -35,7 +50,7 @@ const projects = [
 	{
 		"pName": "Unnamed Game",
 		"pImage": "./assets/images/default.png",
-		"pDescription": "Roles: Sole Developer<br />A small game currently in development. Charge forward as you dash, dodge, and phase your way through a minefield of hazards in this Ori-styled 2D platformer.",
+		"pDescription": "Roles: Sole Developer<br />A small game currently on hiatus. Charge forward as you dash, dodge, and phase your way through a minefield of hazards in this Ori-styled 2D platformer.",
 		"pLinks": [
 			""
 			// {
