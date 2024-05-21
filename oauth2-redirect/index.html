@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+		<title>Justin Morris - AuthRedirect</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link rel="icon" href="./assets/images/favicon.png" sizes="1024x1024" /> -->
+		<link rel="icon" href="../assets/images/favicon.ico" sizes="32x32 64x64 128x128 256x256">
+		<link rel="stylesheet" type="text/css" href="../default-styles.css">
+		<!-- <script src="./index.js"></script> -->
+		<!-- <script src="./assets/projects.json"></script> -->
+    <script>
+      alert("You can go back now");
+      open("https://jgm-edu.github.io/");
+    </script>
+	<style>
+            .flipX video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+            }
+            .flipXY video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+            }
+            .flipXYX video::-webkit-media-text-track-display {
+                transform: matrix(1, 0, 0, -1, 0, 0) !important;
+            }</style><style>
+            @keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            @-webkit-keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            .blinkWarning {
+                -webkit-animation: blinkWarning 1s linear infinite;
+                -moz-animation: blinkWarning 1s linear infinite;
+                animation: blinkWarning 1s linear infinite;
+            }</style></head>
+	<body>
+		<div id="bg"></div>
+		<header id="pageHeader" class="container bordered rounded level1">
+			<h1>Justin Morris</h1>
+			<a href="#bio">Bio</a>
+			<a href="#mainContent">Projects</a>
+		</header>
+		<span id="bio" class="container rounded level1">
+			I am an aspiring game designer from Long Island, New York, with a strong background in C# and Web development. My more recent endevours have been developing short Unity engine games and web development, along with C++. My programming roots go back 10 years to my 10th grade intro classes to C++ and Java, and I've since expanded to JavaScript, Python, C#, and more.
+		</span>
+		<div id="mainContent" class="container bordered rounded level1"><a class="projectLinkWrapper" href="./EdgeOfControl/index.html"><div class="project bordered rounded container level2"><h3 class="projectName">Edge of Control</h3><img class="projectImage" src="./assets/images/edgeOfControl.png" alt="Edge of Control's image"><div class="projectDescription">Roles: Sole Developer<br>A 2D platformer MVI merging Left 4 Dead with Mirror's Edge. Get to the end before time runs out. Currently under development.</div><div class="projectLinks"><a class="projectLink" href="./EdgeOfControl/index.html">Play Now</a><span>&nbsp;|&nbsp;</span><a class="projectLink" href="https://github.com/jmortiger/Edge-of-Control">Github Repo</a></div></div></a><a class="projectLinkWrapper" href="./Polarizing/index.html"><div class="project bordered rounded container level2"><h3 class="projectName">Polarizing</h3><img class="projectImage" src="./assets/images/polarizing.png" alt="Polarizing's image"><div class="projectDescription">Roles: Project Lead, Programmer, Level Designer<br>This prototype puzzle game was a collaborative effort with a small team of students. Players use magnets to direct a proton stream around obstacles into a receptor.</div><div class="projectLinks"><a class="projectLink" href="./Polarizing/index.html">Play Now</a><span>&nbsp;|&nbsp;</span><a class="projectLink" href="https://github.com/cole-easton/IGME320Proj3">Github Repo</a></div></div></a><a class="projectLinkWrapper" href="./Supersonic/index.html"><div class="project bordered rounded container level2"><h3 class="projectName">Unnamed Rhythm Game</h3><img class="projectImage" src="./assets/images/supersonic2.png" alt="Unnamed Rhythm Game's image"><div class="projectDescription">Roles: Sole Developer<br>A small rhythm game currently on hiatus. Keep the square in the air.</div><div class="projectLinks"><a class="projectLink" href="./Supersonic/index.html">Play Now</a><span>&nbsp;|&nbsp;</span><a class="projectLink" href="https://github.com/jmortiger/Supersonic">Github Repo</a></div></div></a><a class="projectLinkWrapper" href=""><div class="project bordered rounded container level2"><h3 class="projectName">Unnamed Game</h3><img class="projectImage" src="./assets/images/default.png" alt="Unnamed Game's image"><div class="projectDescription">Roles: Sole Developer<br>A small game currently on hiatus. Charge forward as you dash, dodge, and phase your way through a minefield of hazards in this Ori-styled 2D platformer.</div><div class="projectLinks"><a class="projectLink" href=""></a></div></div></a></div>
+		<script>
+			window.onload = init;
+			//let text = document.querySelector("#bio").innerHTML;
+			//text = text.split("YEARS_OF_PROGRAMMING");
+			//text.push(text[1]);
+			//text[1] = "" + new Date().getFullYear() - 2014;
+			//text = text[0] + text[1] + text[2];
+			//document.querySelector("#bio").innerHTML = text;
+		</script>
+	
+</body></html>
